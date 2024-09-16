@@ -1,0 +1,105 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0;
+}
+#titrePage {
+  background-color: #1a237e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+#allContent {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1a237e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.infoUsername, .infoPassword {
+  margin-bottom: 20px;
+}
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #212121;
+  color: #e0e0e0;
+}
+button {
+  background-color: #1a237e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0d47a1;
+}
+#logoutButton {
+  background-color: #d32f2f;
+}
+#logoutButton:hover {
+  background-color: #b71c1c;
+}
+#submitButton {
+  display: block;
+  width: 100%;
+}
+#logoutButton {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+#logoutButton {
+  display: none;
+}
+#errorMessage {
+  color: red;
+  margin-top: 10px;
+  display: none;
+}
+.infoUser {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #424242;
+  border-left: 5px solid #1a237e;
+  border-radius: 4px;
+  color: #e0e0e0;
+}
+.graphDiv {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #212121;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+svg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+#allContent .infoUser:first-child, #allContent .infoUser:last-child {
+  border-left: 5px solid #d32f2f;
+}
+#allContent .infoUser:nth-child(odd) {
+  background-color: #1e3c72;
+}
+#allContent .infoUser:nth-child(even) {
+  background-color: #122b40;
+}
